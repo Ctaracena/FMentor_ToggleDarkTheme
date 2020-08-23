@@ -13,7 +13,7 @@ const num = document.querySelectorAll('.num');
 const overview = document.querySelector('.overview-title');
 var dark = false;
 
-slider.addEventListener('click', () => {
+slider.addEventListener('click', () => { //changed click location
     if (dark === false) {
         document.body.style.backgroundColor = "hsl(230, 17%, 14%)";
         toggleWrapper.style.backgroundColor = "hsl(232, 19%, 15%)";

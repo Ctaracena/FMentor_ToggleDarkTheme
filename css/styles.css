@@ -44,7 +44,7 @@ header{
     height: 24px;
     width: 24px;
     border-radius: 50%;
-    transition-property: transform;
+    /* added transition */
     transition-duration: 300ms;
     transition-timing-function: ease-out;
 }
