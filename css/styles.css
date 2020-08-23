@@ -44,6 +44,9 @@ header{
     height: 24px;
     width: 24px;
     border-radius: 50%;
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
 }
 .dark-mode {
     background-color: hsl(228, 28%, 20%);

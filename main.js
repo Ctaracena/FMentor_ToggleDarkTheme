@@ -13,11 +13,11 @@ const num = document.querySelectorAll('.num');
 const overview = document.querySelector('.overview-title');
 var dark = false;
 
-btn.addEventListener('click', () => {
+slider.addEventListener('click', () => {
     if (dark === false) {
         document.body.style.backgroundColor = "hsl(230, 17%, 14%)";
-        toggleWrapper.style.backgroundColor = "hsl(232, 19%, 15%)"
-        btn.classList.add('dark-mode')
+        toggleWrapper.style.backgroundColor = "hsl(232, 19%, 15%)";
+        btn.classList.add('dark-mode');
         slider.style.background = 'linear-gradient(90deg, rgb(61,126,184), rgb(67,207,144))'
         header.style.backgroundColor = "hsl(232, 19%, 15%)";
         mode.style.color = 'white';
